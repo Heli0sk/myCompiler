@@ -1,12 +1,3 @@
-/*
- * @Author: Jinsc
- * @Date: 2023-09-04 12:31:24
- * @LastEditors: Jinsc
- * @LastEditTime: 2023-09-04 14:26:59
- * @FilePath: /myCompiler/01_Scanner/main.c
- * @Description: 
- * Copyright (c) 2023 by jinsc123654@gmail.com All Rights Reserved. 
- */
 #include "defs.h"
 #define extern_
 #include "data.h"
