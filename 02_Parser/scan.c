@@ -65,6 +65,7 @@ int scan(struct token *t) {
         t->token = T_SLASH;
         break;
       case EOF: // End of File
+        t->token = T_EOF;
         return 0;
       default:  // digit or unrecongnised char
         if (isdigit(c)){

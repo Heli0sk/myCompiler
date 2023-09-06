@@ -30,8 +30,9 @@ void main(int argc, char *argv[]) {
       exit(1);
     }
 
-    scan(&Token);			// Get the first token from the input
-    n = binexpr();		// Parse the expression in the file
-    printf("%d\n", interpretAST(n));	// Calculate the final result
+    scan(&Token);			// 获取第一个token
+    // printf("Token: %d, Val: %d \n", Token.token, Token.intvalue);
+    n = binexpr();		// AST树根节点
+    printf("%d\n", interpretAST(n));	// 最终结果
     exit(0);
 }
